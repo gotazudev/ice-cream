@@ -23,7 +23,7 @@
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -77,17 +77,17 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.php" class="nav-item nav-link active">Home</a>
-                        <a href="about.php" class="nav-item nav-link">About</a>
-                        <a href="product.php" class="nav-item nav-link">Product</a>
+                        <a href="/index.php" class="nav-item nav-link active">Home</a>
+                        <a href="/about.php" class="nav-item nav-link">About</a>
+                        <a href="/product.php" class="nav-item nav-link">Product</a>
                     </div>
                     <a href="index.php" class="navbar-brand mx-5 d-none d-lg-block">
                         <h1 class="m-0 display-4 text-primary"><span class="text-secondary">i</span>CREAM</h1>
                     </a>
                     <div class="navbar-nav mr-auto py-0">
-                        <a href="service.php" class="nav-item nav-link">Service</a>
-                        <a href="gallery.php" class="nav-item nav-link">Gallery</a>
-                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="/service.php" class="nav-item nav-link">Service</a>
+                        <a href="/gallery.php" class="nav-item nav-link">Gallery</a>
+                        <a href="/contact.php" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </nav>

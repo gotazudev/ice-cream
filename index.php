@@ -1,4 +1,12 @@
-<?php include "includes/template/header.php"; ?>
+<?php 
+
+    // Importar la BD
+    require 'includes/config/database.php';
+    $db = conectarDB();
+
+    include "includes/template/header.php";
+
+?>
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5 pb-5">
