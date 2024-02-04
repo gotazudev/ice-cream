@@ -65,7 +65,7 @@
 
             if($resultado){
                 // Redirecciona al usuario
-                header('Location: /admin?resultado=1');
+                header('Location: /admin?mensaje=1');
             }
         }
     }  
