@@ -105,5 +105,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 </main>
  
 <?php
-   include "../includes/template/footer.php";
+    mysqli_close($db);
+    include "../includes/template/footer.php";
 ?>
